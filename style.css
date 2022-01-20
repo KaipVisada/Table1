@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;600&display=swap');
+
+
+
+table {
+    border-collapse: collapse;
+    border: 1.5px solid #fec107;
+    font-family: Montserrat;
+    width: 600px;
+    color: white;
+
+}
+table:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #fec107;
+}
+th {
+    text-align: center;
+    
+}
+
+thead {
+    background: #fec107;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    color: black;
+}
+
+tbody {
+    background: #382c6e;
+}
+.diferent {
+    background: #e5ae30;
+    color: blanchedalmond;
+    color: black;
+    border: 1px solid blanchedalmond;
+    font-weight: bold;
+    border-bottom: #e5ae30 ;
+    border-right: #e5ae30 ;
+}
